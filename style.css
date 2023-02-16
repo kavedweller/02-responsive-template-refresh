@@ -129,3 +129,9 @@ body {
 .bordered {
   border: 1px solid #000;
 }
+.rounded-5 {
+  border-radius: 5px;
+}
+.rounded-10 {
+  border-radius: 10px;
+}
