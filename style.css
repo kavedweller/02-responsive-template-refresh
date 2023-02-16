@@ -5,17 +5,32 @@ body {
   font-family: "Work Sans", "Segoe UI", Arial, sans-serif;
 }
 
-header {
+.navbar {
   width: 100%;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  color: #black;
+  margin: 0;
+  padding: 0;
+}
+/* section {
+  margin: 0;
+  padding: 0;
+} */
+
+.section-h1 {
+  font-size: 64px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
-  /* letter-spacing: 2px; */
+  font-size: 45px;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -36,4 +51,81 @@ header {
   color: black;
   text-decoration: none;
   font-size: 1.2em;
+}
+
+.bg-peanut {
+  background: #fff4e7;
+}
+
+/* positioning */
+.mx-auto {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+/* -- */
+
+/* sizing */
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+/* -- */
+
+/* spacing */
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/* -- */
+
+/* buttons */
+.btn-main {
+  background-color: #ff900e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0;
+  padding: 1.5rem 1rem;
+}
+/* -- */
+
+/* flexbox  */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+/* -- */
+
+/* text styles */
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.text-orange {
+  color: #ff900e;
+}
+
+.text-white {
+  color: #fff;
+}
+/* -- */
+
+.bordered {
+  border: 1px solid #000;
 }
